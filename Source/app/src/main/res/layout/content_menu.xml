@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Menü"
+    android:background="@color/colorBackground"
+    tools:showIn="@layout/menu">
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button10"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginLeft="61dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginRight="59dp"
+        android:layout_marginBottom="32dp"
+        android:background="@color/colorButton"
+        android:onClick="onClick3"
+        android:text="glossar" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button12"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginLeft="59dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginRight="61dp"
+        android:layout_marginBottom="32dp"
+        android:background="@color/colorButton"
+        android:onClick="onClick6"
+        android:text="mein kaffee" />
+
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button11"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginLeft="61dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginRight="59dp"
+        android:layout_marginBottom="32dp"
+        android:background="@color/colorButton"
+        android:onClick="onClick5"
+        android:text="spielen" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button13"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:layout_marginBottom="32dp"
+        android:background="@color/colorButton"
+        android:onClick="onClick4"
+        android:text="rating" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:layout_marginBottom="124dp"
+        android:background="@color/colorButton"
+        android:onClick="onClick7"
+        android:text="einstellungen" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="539dp"
+        android:background="@color/colorBackground"
+        android:onClick="onClick8"
+        app:srcCompat="@drawable/info" />
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Glossar"
+    android:background="@color/colorBackground"
+    tools:showIn="@layout/glossar">
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="642dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/glossar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Als AKTIVE INHALTE werden bestimmte Funktionen von Websites bezeichnet, die die Bedienung einfacher, attraktiver oder bequemer machen sollen. Gemeinsam ist allen diesen Funktionen, dass sie am eigenen PC ausgeführt werden und nicht direkt sichtbar sind. Typische Bei- spiele für solche aktiven Inhalte sind Java-Applets, JavaScript, VBScript und ActiveX-Controls. Aktive Inhalte sind in der Standardeinstellung der Internet-Browser meistens aktiviert, da ohne sie die Bedienung vieler Websites nicht vollständig funktioniert. Sie stellen aber ein hohes Sicherheitsrisiko dar, da es mit ihrer Hilfe u.a. möglich ist, Schadprogramme zu installieren oder Daten aus dem PC auszulesen und an unbefugte Empfänger zu übertragen.
+\n\n\n
+
+COOKIES werden eingesetzt, um Informationen zu früher aufgerufenen Websites in kleinen Dateien auf dem Computer zu speichern. Sie ermöglichen beispielsweise, persönliche Einstel- lungen aus früheren Sitzungen wiederherzustellen oder Informationen aus Online-Shops ohne explizite Benutzeranmeldung zu speichern. Im Allgemeinen sind Cookies ungefährlich, allerdings können sie dazu verwendet werden, dass individuelle Surfverhalten auszuforschen und so für zielgruppengerechte Werbung genutzt werden.
+\n\n\n
+
+DIALER sind Schadprogramme, die eine Telefonverbindung über kostenpflichtige Mehrwert- nummern aufbauen. Die Kosten für die Dialer-Verbindung betragen dabei mehrere Euro pro Minute. Die Aktivierung eines Dialers erfolgt in der Regel durch den User selbst, der dem Download oder der Installation eines Programms zustimmt. Davon betroffen sind insbeson- dere ungeschützte Smartphones.
+\n\n\n
+
+DIGITALE ZERTIFIKATE bilden die Grundlage für die Authentifizierung von Webservern beim Einsatz von HTTPS. Sie werden außerdem auch zur Verschlüsselung und zum Signieren von E-Mails genützt. Zertifikate werden von einer Zertifizierungsstelle herausgegeben und weisen die Identität des Zertifikatsinhabers aus. Diese Zertifizierungsstellen können wieder durch andere Stellen zertifiziert sein; insgesamt bildet sich so eine Zertifizierungskette oder Zertifikatshierarchie, die bis zu einer obersten Stammzertifizierungsstelle reicht.
+\n\n\n
+
+FTP ist die Abkürzung für File Transfer Protocol, ein Verfahren zur Übertragung von Dateien zwischen Kommunikationspartnern. Die Datenübertragung ist in beide Richtungen möglich, mittels FTP-Client können Daten vom Server zum Client oder vom Client zum Server übertra- gen werden. Ähnlich wie bei HTTP werden dabei die Daten (auch Passwörter) unverschlüsselt übertragen. In Zusammenhang mit dem Internet wird FTP vor allem dazu verwendet, Softwa- reinstallationsdateien von FTP-Servern auf Clients zu übertragen oder neue Webseiteninhalte auf Servern einzuspielen.
+\n\n\n
+
+Als HOAXES bezeichnet man Warnungen über angebliche neue Computer-Viren, sensationelle Einkunftsmöglichkeiten und dergleichen, die in der Regel über E-Mail verbreitet werden und die Empfänger zur Weiterleitung an Andere auffordern. Bei diesen Warnungen handelt es sich in der Regel um Falschmeldungen oder Kettenbriefe, die verunsichern oder zu unüberlegten Handlungen verleiten sollen. Hoax-Mails und Kettenbriefe sollten daher am besten sofort gelöscht und keinesfalls weitergeleitet werden. Nähere Informationen sind auf der Hoax-Liste der TU-Berlin unter http://hoax-info.tubit.tu-berlin.de/hoax/hoaxlist.shtml zu finden.
+\n\n\n
+
+HTTP ist die Abkürzung für HyperText Transfer Protocol, dem typischen Übertragungsprotokoll für Webseiten. Über HTTP werden Webseiten, d.h. Texte und Bilder von Servern im Internet an den jeweiligen Browser übertragen. Es können aber auch in Gegenrichtung Daten vom Browser an den Server gesendet werden, z.B. um eine Suchanfrage oder Daten in einem Webformular zur weiteren Verarbeitung an den Webserver zu schicken. HTTP ist ein relativ unsicheres Protokoll, das Daten unverschlüsselt überträgt und keinen Schutz vor dem Abfangen oder Umleiten von Daten bietet. Zur Übermittlung sensibler Daten ist es daher nicht geeignet.
+\n\n\n
+
+HTTPS ist die Abkürzung für HyperText Transfer Protocol Secure, das durch die Verwendung des Verschlüsselungsprotokolls SSL/TLS ausreichende Sicherheit für die Übertragung sensib- ler Daten bietet. Mit Hilfe dieses Protokolls werden einerseits die übertragenen Daten ver- schlüsselt und abhörsicher gemacht, andererseits wird durch die Verwendung von digitalen Zertifikaten die Identität des Webservers gesichert. Angreifern sollte es daher – die richtige Handhabung vorausgesetzt – nicht möglich sein, sich z.B. als E-Banking-Server auszugeben, um Internet-Usern Passwörter, PINs oder TANs zu entlocken.
+\n\n\n
+
+PHISHING ist ein Kunstwort aus den beiden Begriffen „Password“ und „Fishing“ und bezeich- net den Versuch mittels gefälschter E-Mails an fremde Nutzerdaten (Login, Passwort, TAN etc.) zu gelangen. Normalerweise werden die Empfänger solcher Mails unter Vorspiegelung falscher Tatsachen (Userdaten gingen verloren, Neuidentifikation ist notwendig, ...) aufgefordert, die Webseite einer Bank (Online Shop, Kreditkarteninstitut, Auktionshaus etc.) aufzusuchen und dort ihre Zugangsberechtigungen einzutippen. Diese Webseiten sind ebenfalls gefälscht und sehen den Originalen zum Verwechseln ähnlich.
+Die dort eingetippten Daten landen natürlich nicht bei der eigenen Bank, sondern auf den Servern von Betrügern, die dann mit den Nutzerdaten Transaktionen zum Schaden der User durchführen. Grundsätzlich fordert kein seriöses Unternehmen seine Kunden auf, seine User- daten über das Internet zu bestätigen. Es sind also alle diesbezüglichen Mails zu ignorieren. In Zweifelsfällen sollte man sich telefonisch mit dem (vermeintlichen) Absender in Verbindung setzen.
+\n\n\n
+
+Als ROOTKIT bezeichnet man Software bzw. eine Softwaretechnik, mit der ein System manipuliert werden kann, sodass bestimmte Dateien, Prozesse, Netzwerkverbindungen, Speicherbereiche nicht mehr angezeigt werden. Damit ist es möglich, das Rootkit und verborgene Schadsoftware einerseits vor Virenscannern und andererseits vor den Computer-Anwenderin- nen und -Anwendern zu verstecken.
+\n\n\n
+
+SOZIALE NETZWERKE sind Netzgemeinschaften, die meist über Internetportale zugänglich sind. Über das Portal können Mitglieder eigene Inhalte erstellen und austauschen. Typische soziale Netzwerke bieten ihren Mitgliedern die Möglichkeit, Profile über die eigene Person, Vorlieben und Interessen anzulegen sowie Kontakte zu Anderen herzustellen und mit diesen zu kommunizieren.
+\n\n\n
+
+Als SPAM bezeichnet man unerwünschte Werbemails, die mittlerweile rund 90 Prozent des gesamten E-Mail-Verkehrs ausmachen. Auch bei kleineren Unternehmen ist es durchaus mög- lich, mehrere hundert Spam-Mails pro Tag zu erhalten. Gefährlich ist Spam grundsätzlich nicht, allerdings geht beim Löschen der Werbe-Mails wertvolle Arbeitszeit verloren. Mittels spezieller Spam-Filter können entweder bereits auf Provider-/Mailserver-Ebene oder auch erst am eigenen Rechner unerwünschte Mails gefiltert und gelöscht werden.
+\n\n\n
+
+Als SPYWARE bezeichnet man Programme, die die User und/oder ihr Surfverhalten ohne deren Wissen ausspionieren. Diese Daten werden an den Hersteller der Software oder auch an Dritte, meist mit dem Zweck, personalisierte Werbung und Pop-ups einzublenden, weitergeleitet. Mittels Spyware können aber auch sensible persönliche Daten an Unbefugte übertragen werden.
+\n\n\n
+
+TROJANISCHE PFERDE (TROJANER) sind selbständige Programme mit verdeckter Schadens- funktion, ohne Selbstreproduktion. Trojanische Pferde dienen vor allem dazu, Computer auszuspionieren. Der Trojaner verdankt seinen Namen dem Umstand, dass die Schadensrou- tinen oft in scheinbar nützlichen Programmen versteckt sind. Ein Programm, das zum Zweck der Viren-Entfernung aus dem Internet heruntergeladen wird, kann unter Umständen genau das Gegenteil bewirken. Es ist daher immer auch notwendig, die Seriosität der Quelle, von der man Programme bezieht, zu überprüfen.
+\n\n\n
+
+URL ist die Abkürzung für Uniform Resource Locator, sie ist gewissermaßen die Adressangabe für einen Dienst in einem Computernetzwerk.  Eine URL besteht aus der Zugriffsmethode auf diesen Dienst – im Web üblicherweise http oder https, für Datenübertragungen auch ftp – und dem Ort des Dienstes. An die URL kann noch, durch ein Fragezeichen getrennt, ein weiterer Textteil angeschlossen werden, um z.B. eine Anfrage an den verarbeitenden Server zu übertragen.
+\n\n\n
+
+VIREN sind nicht-selbständige, in andere Programme oder Dateien eingebettete Programm- routinen, die sich selbst reproduzieren und dadurch von Anwenderinnen und Anwendern nicht kontrollierbare Manipulationen in Systembereichen, an anderen Programmen oder deren Umgebung vornehmen.
+\n\n\n
+
+WÜRMER sind selbständige, selbstreproduzierende Programme, die sich in einem System (vor allem in Netzen) ausbreiten. Zu diesem Zweck verwenden viele Würmer das Adressbuch des infizierten Rechners und versenden Mails mit gefälschten Absenderadressen. Das Öffnen solcher Mails kann bei einem ungeschützten System zu einer Infektion führen.
+\n\n\n
+"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

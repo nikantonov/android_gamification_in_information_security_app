@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Thema_2_2"
+    android:background="@color/colorBackground"
+    tools:showIn="@layout/activity_thema_2_2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="380dp"
+        android:layout_height="446dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="152dp"
+        android:text="\n\n
+        Wussten Sie schon, dass  das Hasso-Plattner-Institut (HPI) in Potsdam einmal im Jahr Deutschlands beliebteste Passwörter veröffentlicht? Die Top 10 deutscher Passwörter 2018 waren:
+\n\n
+1)123456\n
+2)12345\n
+3)123456789\n
+4)f***en\n
+5)12345678\n
+6)hallo123\n
+7)hallo\n
+8)123\n
+9)passwort\n
+10)master
+"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginRight="162dp"
+        android:layout_marginBottom="94dp"
+        android:onClick="onClick9"
+        android:background="@color/colorButton"
+        android:text="Weiter" />
+</RelativeLayout>

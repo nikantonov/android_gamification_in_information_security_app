@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Thema_2_3"
+    android:background="@color/colorBackground"
+    tools:showIn="@layout/activity_thema_2_3">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="379dp"
+        android:layout_height="489dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="109dp"
+        android:text="DER RICHTIGE UMGANG\n
+Geben Sie Ihre Passwörter – insbesondere das Passwort für das Anmelden am Computer – nicht an Ihre Kolleginnen und Kollegen oder an Ihre Vorgesetzten weiter. Sollte die Weitergabe unbe- dingt notwendig sein, ändern Sie Ihr Passwort anschließend sofort.
+Setzen Sie für verschiedene Anmeldungen verschiedene Passwörter ein! Durch kleine Variationen – indem Sie z.B. drei Buchstaben Ihres Passworts ändern – ist dies leicht durchführbar und bleibt einfach zu merken.
+Auf keinen Fall dürfen Sie das gleiche Passwort für die Anmeldung am Firmen-PC und Anmeldungen im Internet (z.B. dem E-Mail-Konto bei einem Internet-Provider) verwenden. Wenn es in falsche Hände gerät, kann es gegen Ihr Unternehmen eingesetzt werden: Es gibt Fälle, wo Benutzer auf Webseiten gelockt und zur Angabe einer E-Mail-Adresse und eines Passworts auf- gefordert wurden – in der (kriminellen) Hoffnung, dass das Opfer aus Bequemlichkeit keine unterschiedlichen Passwörter verwendet.
+"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="159dp"
+        android:layout_marginLeft="159dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginRight="164dp"
+        android:layout_marginBottom="54dp"
+        android:onClick="onClick10"
+        android:background="@color/colorButton"
+        android:text="Weiter" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="186dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginRight="115dp"
+        android:layout_marginBottom="10dp"
+        android:progress="33" />
+</RelativeLayout>

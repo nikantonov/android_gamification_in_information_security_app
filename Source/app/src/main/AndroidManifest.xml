@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="at.ac.univie.hci.informationssicherheit">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mainicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/mainicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Thema_1_11"
+            android:label="@string/title_activity_thema_1_11"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Thema_1_10"
+            android:label="@string/title_activity_thema_1_10"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Thema_1_9"
+            android:label="@string/title_activity_thema_1_9"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Thema_1_8"
+            android:label="@string/title_activity_thema_1_8"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Thema_1_7"
+            android:label="@string/title_activity_thema_1_7"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Thema_1_6"
+            android:label="@string/title_activity_thema_1_6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Thema_1_5"
+            android:label="@string/title_activity_thema_1_5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Thema_1_4"
+            android:label="@string/title_activity_thema_1_4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Thema_1_3"
+            android:label="@string/title_activity_thema_1_3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Thema_1_2"
+            android:label="@string/title_activity_thema_1_2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Thema_1_1"
+            android:label="@string/title_activity_thema_1_1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hilfe"
+            android:label="@string/title_activity_hilfe"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Einstellungen"
+            android:label="@string/title_activity_einstellungen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Coffee"
+            android:label="@string/title_activity_coffee"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Thema_2_9"
+            android:label="@string/title_activity_thema_2_9"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Thema_2_8"
+            android:label="@string/title_activity_thema_2_8"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Thema_2_7"
+            android:label="@string/title_activity_thema_2_7"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Thema_2_6"
+            android:label="@string/title_activity_thema_2_6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Thema_2_5"
+            android:label="@string/title_activity_thema_2_5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Thema_2_4"
+            android:label="@string/title_activity_thema_2_4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Thema_2_3"
+            android:label="@string/title_activity_thema_2_3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Thema_2_2"
+            android:label="@string/title_activity_thema_2_2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Thema_2_1"
+            android:label="@string/title_activity_thema_2_1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Spielen"
+            android:label="@string/title_activity_spielen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Rating"
+            android:label="@string/title_activity_rating"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Glossar"
+            android:label="@string/title_activity_glossar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Menü"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

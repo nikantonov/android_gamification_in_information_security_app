@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Thema_2_4"
+    android:background="@color/colorBackground"
+    tools:showIn="@layout/activity_thema_2_4">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="379dp"
+        android:layout_height="489dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="109dp"
+        android:text="PASSWORT-MANAGER VERWENDEN\n
+Mit einem Passwort-Manager können mehrere, unterschiedliche Passwörter verwaltet und durch ein einziges Master-Passwort geschützt werden. Dieses Passwort muss sicher sein, also zumindest die obigen Kriterien erfüllen. Manche Passwort-Manager generieren auch auf Knopfdruck sichere Passwörter.
+Wenn Sie in Ihrem Internet-Browser einen integrierten Passwort-Manager verwenden, aktivieren Sie bitte die Option „Master Passwort“. Dann können Sie ein sicheres Master-Passwort wählen.
+Sie finden im Internet eine Reihe kostenloser Passwort-Manager. Verschiedene Websites, auf denen Sie den Sicherheitsgrad Ihrer Passwörter testen und überprüfen können, sind mit einer Internet-Suche nach „Passworttest“ leicht zu finden.
+"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="159dp"
+        android:layout_marginLeft="159dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginRight="164dp"
+        android:layout_marginBottom="54dp"
+        android:onClick="onClick11"
+        android:background="@color/colorButton"
+        android:text="Weiter" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="186dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginRight="115dp"
+        android:layout_marginBottom="10dp"
+        android:progress="66" />
+
+</RelativeLayout>

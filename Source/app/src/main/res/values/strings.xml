@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">IT-Sicherheit</string>
+    <string name="it_sicherheit">IT-Sicherheit</string>
+    <string name="title_activity_menu">menu</string>
+    <string name="title_activity_glossar">Glossar</string>
+    <string name="title_activity_rating">Rating</string>
+    <string name="title_activity_spielen">Spielen</string>
+    <string name="title_activity_thema_2_1">Thema_2_1</string>
+    <string name="title_activity_thema_2_2">Thema_2_2</string>
+    <string name="title_activity_thema_2_3">Thema_2_3</string>
+    <string name="title_activity_thema_2_4">Thema_2_4</string>
+    <string name="title_activity_thema_2_5">Thema_2_5</string>
+    <string name="title_activity_thema_2_6">Thema_2_6</string>
+    <string name="title_activity_thema_2_7">Thema_2_7</string>
+    <string name="title_activity_thema_2_8">Thema_2_8</string>
+    <string name="title_activity_thema_2_9">Thema_2_9</string>
+    <string name="title_activity_coffee">Coffee</string>
+    <string name="title_activity_einstellungen">Einstellungen</string>
+    <string name="title_activity_hilfe">Hilfe</string>
+    <string name="title_activity_thema_1_1">Thema_1_1</string>
+    <string name="title_activity_thema_1_2">Thema_1_2</string>
+    <string name="title_activity_thema_1_3">Thema_1_3</string>
+    <string name="title_activity_thema_1_4">Thema_1_4</string>
+    <string name="title_activity_thema_1_5">Thema_1_5</string>
+    <string name="title_activity_thema_1_6">Thema_1_6</string>
+    <string name="title_activity_thema_1_7">Thema_1_7</string>
+    <string name="title_activity_thema_1_8">Thema_1_8</string>
+    <string name="title_activity_thema_1_9">Thema_1_9</string>
+    <string name="title_activity_thema_1_10">Thema_1_10</string>
+    <string name="title_activity_thema_1_11">Thema_1_11</string>
+
+
+</resources>

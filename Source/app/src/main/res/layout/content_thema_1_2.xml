@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Thema_1_2"
+    android:background="@color/colorBackground"
+    tools:showIn="@layout/activity_thema_1_2">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="410dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginLeft="59dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp"
+        android:layout_marginBottom="147dp"
+        android:text=" Wussten Sie, dass laut einer Studie des IT-Security-Spezialisten Kaspersky 46 Prozent aller Cybersicherheitsvorfälle in Unternehmen auf das Fehlverhalten der eigenen Mitarbeiter zurückzuführen sind. Für Cyberkriminelle ist die Unachtsamkeit von Angestellten die einfachste Möglichkeit, um an sensible Firmendaten zu gelangen - über sie lassen sich alle Firewalls und Schutzprogramme umgehen.
+Da wird in Eile ein infizierter E-Mail-Anhang geöffnet, auf einem Kongress wird ein USB-Stick mit
+sensiblen Daten gestohlen oder Spionagesoftware gelangt über eine unsichere App aufs privat genutzte Dienst-Smartphone."
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="159dp"
+        android:layout_marginLeft="159dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginRight="164dp"
+        android:layout_marginBottom="81dp"
+        android:background="@color/colorButton"
+        android:onClick="onClick19"
+        android:text="Weiter" />
+
+</RelativeLayout>

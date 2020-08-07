@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Spielen"
+    tools:showIn="@layout/spielen">
+
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="110dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginEnd="249dp"
+        android:layout_marginRight="249dp"
+        android:layout_marginBottom="401dp"
+        android:background="@color/colorButton"
+        android:drawableRight="@drawable/open"
+        android:onClick="onClick17"
+        android:text="LEVEL 1" />
+
+    <Button
+        android:id="@+id/spiel2"
+        android:layout_width="110dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="67dp"
+        android:layout_marginRight="67dp"
+        android:layout_marginBottom="401dp"
+        android:background="@color/colorButton"
+        android:drawableRight="@drawable/open"
+        android:onClick="onClick7"
+        android:text="LEVEL 2" />
+
+    <Button
+        android:id="@+id/spiel3"
+        android:layout_width="110dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginEnd="249dp"
+        android:layout_marginRight="249dp"
+        android:layout_marginBottom="314dp"
+        android:background="@color/colorButton"
+        android:drawableRight="@drawable/padlock"
+        android:text="LEVEL 3" />
+
+    <Button
+        android:id="@+id/spiel4"
+        android:layout_width="110dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="314dp"
+        android:background="@color/colorButton"
+        android:drawableRight="@drawable/padlock"
+        android:text="LEVEL 4" />
+
+    <Button
+        android:id="@+id/spiel5"
+        android:layout_width="110dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginEnd="249dp"
+        android:layout_marginRight="249dp"
+        android:layout_marginBottom="229dp"
+        android:background="@color/colorButton"
+        android:drawableRight="@drawable/padlock"
+        android:text="LEVEL 5" />
+
+    <Button
+        android:id="@+id/spiel6"
+        android:layout_width="110dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="66dp"
+        android:layout_marginRight="66dp"
+        android:layout_marginBottom="228dp"
+        android:background="@color/colorButton"
+        android:drawableRight="@drawable/padlock"
+        android:text="LEVEL 6" />
+
+    <Button
+        android:id="@+id/spiel7"
+        android:layout_width="110dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginRight="250dp"
+        android:layout_marginBottom="141dp"
+        android:background="@color/colorButton"
+        android:drawableRight="@drawable/padlock"
+        android:text="LEVEL 7" />
+
+
+</RelativeLayout>
